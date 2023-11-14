@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeBoy</title>
+    <link rel="shortcut icon" href="img/logo.jpeg" type="image/x-icon">
+
+    <!-- css bs 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- boxicon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- mycss -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <div data-aos="fade-right">
+          <a class="navbar-brand text-dark" href="#">CodeBoy</a>
+        </div>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="display: none"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <label class="hamburger d-lg-none" for="toggleCheckbox">
+          <input type="checkbox" id="toggleCheckbox" />
+          <svg viewBox="0 0 32 32">
+            <path
+              class="line line-top-bottom"
+              d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
+            ></path>
+            <path class="line" d="M7 16 27 16"></path>
+          </svg>
+        </label>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav" data-aos="zoom-in">
+            <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
+            <a class="nav-link text-dark" href="#about">About Us</a>
+            <a class="nav-link text-dark" href="#course">Course</a>
+            <a class="nav-link text-dark" href="#contact">Contact</a>
+          </div>
+        </div>
+        <div data-aos="fade-left">
+          <button class="btn-all">Login</button>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- banner -->
+    <div class="container banner">
+      <div class="row">
+        <div class="col-md-6 mt-5">
+          <div
+            data-aos="fade-right"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <p class="title-banner">HI EVERYONE 👋</p>
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <p class="">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
+              dolor earum, veniam iusto minima quo voluptatem a architecto harum
+              aut molestias, sit facere cum soluta consectetur possimus
+              exercitationem, ab molestiae!
+            </p>
+          </div>
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <button class="btn-all">Lorem</button>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <img
+              src="img/banner.png"
+              class="img-fluid img-banner"
+              style="object-fit: cover"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about us -->
+    <div id="about"></div>
+    <br />
+    <div class="container mt-5">
+      <div
+        class="title-section"
+        data-aos="fade-up"
+        data-aos-delay="150"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+      >
+        <h1 class="text-center">About Us</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <img
+              src="img/bgabout.jpeg"
+              class="img-fluid img-about"
+              style="object-fit: cover"
+              alt="..."
+            />
+          </div>
+        </div>
+        <div class="col-md-6 mt-5">
+          <div
+            data-aos="fade-right"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <p class="title-about">CodeBoy</p>
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <p class="">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
+              minus molestias esse sequi aspernatur consequatur aliquam placeat
+              reiciendis voluptate magnam libero fugiat modi neque sapiente
+              omnis iste accusantium tempora, ipsum beatae voluptates? Quo
+              deserunt rem autem voluptatem aperiam tenetur minus sed, eos
+              ipsam, delectus cupiditate laboriosam asperiores quos. Dolore,
+              porro!
+            </p>
+          </div>
+          <div
+            data-aos="zoom-out"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <button class="btn-all">Lorem</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br /><br />
+
+    <!-- course -->
+    <div id="course"></div>
+    <br /><br /><br />
+    <div class="container">
+      <div
+        class="title-section"
+        data-aos="fade-up"
+        data-aos-delay="150"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+      >
+        <h1 class="text-center">Course</h1>
+      </div>
+      <div class="row">
+        <!-- card 1 -->
+        <div class="col-md-4">
+          <div
+            class="card"
+            data-aos="fade-right"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card__img">
+              <img src="img/codeboy.jpeg" alt="" />
+            </div>
+            <div class="card__descr-wrapper">
+              <p class="card__title">Lorem</p>
+              <p class="card__descr">Lorem ipsum</p>
+              <div class="card__links">
+                <div>
+                  <button class="btn-all">lorem</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="col-md-4">
+          <div
+            class="card"
+            data-aos="zoom-out"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card__img">
+              <img src="img/codeboy.jpeg" alt="" />
+            </div>
+            <div class="card__descr-wrapper">
+              <p class="card__title">Lorem</p>
+              <p class="card__descr">Lorem ipsum</p>
+              <div class="card__links">
+                <div>
+                  <button class="btn-all">lorem</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="col-md-4">
+          <div
+            class="card"
+            data-aos="zoom-out"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card__img">
+              <img src="img/codeboy.jpeg" alt="" />
+            </div>
+            <div class="card__descr-wrapper">
+              <p class="card__title">Lorem</p>
+              <p class="card__descr">Lorem ipsum</p>
+              <div class="card__links">
+                <div>
+                  <button class="btn-all">lorem</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="col-md-4">
+          <div
+            class="card"
+            data-aos="zoom-out"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card__img">
+              <img src="img/codeboy.jpeg" alt="" />
+            </div>
+            <div class="card__descr-wrapper">
+              <p class="card__title">Lorem</p>
+              <p class="card__descr">Lorem ipsum</p>
+              <div class="card__links">
+                <div>
+                  <button class="btn-all">lorem</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 5 -->
+        <div class="col-md-4">
+          <div
+            class="card"
+            data-aos="zoom-out"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card__img">
+              <img src="img/codeboy.jpeg" alt="" />
+            </div>
+            <div class="card__descr-wrapper">
+              <p class="card__title">Lorem</p>
+              <p class="card__descr">Lorem ipsum</p>
+              <div class="card__links">
+                <div>
+                  <button class="btn-all">lorem</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 6 -->
+        <div class="col-md-4">
+          <div
+            class="card"
+            data-aos="fade-left"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card__img">
+              <img src="img/codeboy.jpeg" alt="" />
+            </div>
+            <div class="card__descr-wrapper">
+              <p class="card__title">Lorem</p>
+              <p class="card__descr">Lorem ipsum</p>
+              <div class="card__links">
+                <div>
+                  <button class="btn-all">lorem</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br /><br />
+    <!-- contact -->
+    <div id="contact"></div>
+    <br /><br /><br />
+    <div class="container">
+      <div
+        class="title-section"
+        data-aos="fade-up"
+        data-aos-delay="150"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+      >
+        <h1 class="text-center">Contact</h1>
+      </div>
+    </div>
+    <center>
+      <div
+        data-aos="flip-down"
+        data-aos-delay="150"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+      >
+        <div class="container-form">
+          <form class="form" action="">
+            <input
+              placeholder="Name"
+              id="Name"
+              name="Name"
+              type="Name"
+              class="input"
+              required=""
+            />
+            <input
+              placeholder="E-mail"
+              id="email"
+              name="email"
+              type="email"
+              class="input"
+              required=""
+            />
+            <input
+              placeholder="Message"
+              id="Message"
+              name="Message"
+              type="Message"
+              class="input"
+              required=""
+            />
+            <input value="Submit" type="submit" class="submit-button" />
+          </form>
+        </div>
+      </div>
+    </center>
+    <br /><br /><br /><br />
+    <br /><br /><br /><br />
+
+    <!-- footer -->
+    <footer class="footer section bd-container">
+      <p class=" text-center footer__copy">&#169; 2023 CodeBoy. All Rights Reserved</p>
+    </footer>
+
+    <!-- js bs 5 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- js aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- my js -->
+    <script src="script.js"></script>
+  </body>
+</html>
